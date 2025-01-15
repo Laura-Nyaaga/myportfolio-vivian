@@ -12,7 +12,7 @@ const About = () => {
           Vivian Nafula
           </h1>
           <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8">
-          HealthCare Virtual Assistant/ Virtual Medical Assistant 
+          HealthCare Virtual Assistant
            </p>
           <div className="flex justify-center space-x-4">
             <a href="#contact">
