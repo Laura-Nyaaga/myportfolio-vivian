@@ -11,17 +11,17 @@ interface ProjectImages {
 }
 
 const projectAttachmentImages: ProjectImages = {
+  'Patient Management': {
+    'Patient Scheduling': '/images/patient_scheduling.png'
+  },
+  'Healthcare Expense Management': {
+    'Expense Tracker': '/images/tracking_office_expenses.png'
+  },
   'Sexual Harassment Survey Research': {
     'Workplace Survey Form': '/images/sexual_harassment_survey.png'
   },
-  'Project Management': {
-    'Project Management': '/images/project_management.png',
-  },
-  'Communication Coordination': {
-    'Email Management': '/images/email_management.png'
-  },
-  'Patient Management': {
-    'Patient Scheduling': '/images/patient_scheduling.png'
+  'Social Media Marketing Analytics': {
+    'Marketing Analytics': '/images/social_media_account.png'
   }
 };
 
@@ -196,6 +196,33 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, date, att
 // Projects Component
 const ProjectSample = () => {
   const projects = [
+
+    {
+      title: "Patient Management",
+      description: "Developed a patient scheduling system with an intuitive calendar interface, enabling efficient management of appointments, practitioner availability, and patient workflows. The system includes features such as categorized patient lists, real-time status updates, and color-coded time blocks to streamline clinic operations and improve healthcare service delivery",
+      date: "2023 - Present",
+      attachments: [
+        {
+          title: "Patient Scheduling",
+          type: "document" as "document",
+          icon: FileText as LucideIcon,
+        }
+      ]
+    },
+
+    {
+      title: "Healthcare Expense Management",
+      description: "Developed and implemented a comprehensive expense tracking system for medical office operations, managing budgets of up to $1,000 monthly with detailed categorization.",
+      date: "2022-2023",
+      attachments: [
+        {
+          title: "Expense Tracker",
+          type: "spreadsheet" as "spreadsheet",
+          icon: FileSpreadsheet as LucideIcon,
+        }
+      ]
+    },
+
     {
       title: "Sexual Harassment Survey Research",
       description: "Leading a comprehensive research study to establish sexual harassment behavior patterns in workplace environments. The project involves designing surveys, collecting data, and analyzing responses to develop preventive measures.",
@@ -207,39 +234,15 @@ const ProjectSample = () => {
           icon: FileText as LucideIcon,
         }
       ]
-    },
+    },    
+
     {
-      title: "Project Management",
-      description: "Demonstrated strong organizational skills by efficiently managing collaborative projects and email correspondence. Coordinated document access and permissions for research contributors while maintaining seamless project workflows.",
-      date: "2024",
+      title: "Social Media Marketing Analytics",
+      description: "Managed health and wellness influencer marketing campaigns, tracking engagement rates and analyzing audience demographics for targeted content delivery.",
+      date: "2022",
       attachments: [
         {
-          title: "Project Management",
-          type: "spreadsheet" as "spreadsheet",
-          icon: FileSpreadsheet as LucideIcon,
-        }
-      ]
-    },
-    {
-      title: "Commmunication Coordination",
-      description: "Effectively handled email inbox management, scheduled virtual meetings, and ensured timely responses andseamlesscommunication.",
-      date: "2022-present",
-      attachments: [
-        {
-          title: "Email Management",
-          type: "spreadsheet" as "spreadsheet",
-          icon: FileSpreadsheet as LucideIcon,
-        }
-      ]
-    },
-    
-    {
-      title: "Patient Management",
-      description: "Developed a patient scheduling system with an intuitive calendar interface, enabling efficient management of appointments, practitioner availability, and patient workflows. The system includes features such as categorized patient lists, real-time status updates, and color-coded time blocks to streamline clinic operations and improve healthcare service delivery",
-      date: "2023 - Present",
-      attachments: [
-        {
-          title: "Patient Scheduling",
+          title: "Marketing Analytics",
           type: "document" as "document",
           icon: FileText as LucideIcon,
         }

@@ -50,7 +50,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#1a202c] text-white px-4" id='skills'>
+    <section className="min-h-screen bg-[#1a202c] text-white pt-4 px-4" id='skills'>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center">Skills & Expertise</h2>
         
