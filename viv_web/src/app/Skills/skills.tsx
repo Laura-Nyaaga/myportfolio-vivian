@@ -54,7 +54,7 @@ const Skills = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center">Skills & Expertise</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="pt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Object.entries(skillsData).map(([category, { icon, items }]) => (
             <div 
               key={category}
