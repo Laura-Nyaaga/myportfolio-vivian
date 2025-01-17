@@ -8,7 +8,7 @@ const About = () => {
     return(
         <section className="bg-[#1a202c] py-16 pb-10 px-4 sm:px-6 lg:px-8" id='about'>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-4 animate-fade-in">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold pt-4 mb-4 animate-fade-in">
           Vivian Nafula
           </h1>
           <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8">
