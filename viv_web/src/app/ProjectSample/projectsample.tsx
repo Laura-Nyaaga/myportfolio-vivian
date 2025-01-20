@@ -14,14 +14,14 @@ const projectAttachmentImages: ProjectImages = {
   'Patient Management': {
     'Patient Scheduling': '/images/patient_scheduling.png'
   },
-  'Healthcare Expense Management': {
-    'Expense Tracker': '/images/tracking_office_expenses.png'
+  'Project Management': {
+    'Expense Tracker': '/images/project-management.jpg'
   },
   'Sexual Harassment Survey Research': {
     'Workplace Survey Form': '/images/sexual_harassment_survey.png'
   },
-  'Social Media Marketing Analytics': {
-    'Marketing Analytics': '/images/social_media_account.png'
+  'Communication Management': {
+    'Email Management': '/images/email-management.jpg'
   }
 };
 
@@ -211,7 +211,7 @@ const ProjectSample = () => {
     },
 
     {
-      title: "Healthcare Expense Management",
+      title: "Project Management",
       description: "Developed and implemented a comprehensive expense tracking system for medical office operations, managing budgets of up to $1,000 monthly with detailed categorization.",
       date: "2022-2023",
       attachments: [
@@ -237,12 +237,12 @@ const ProjectSample = () => {
     },    
 
     {
-      title: "Social Media Marketing Analytics",
-      description: "Managed health and wellness influencer marketing campaigns, tracking engagement rates and analyzing audience demographics for targeted content delivery.",
+      title: "Communication Management",
+      description: "Demonstrated strong organizational and communication skills by efficiently managing collaborative projects and email correspondence. Coordinated document access and permissions for research contributors while maintaining clear communication and secure sharing protocols. Effectively handled email inbox management, scheduled virtual meetings, and ensured timely responses to maintain seamless project workflows.",
       date: "2022",
       attachments: [
         {
-          title: "Marketing Analytics",
+          title: "Email Management",
           type: "document" as "document",
           icon: FileText as LucideIcon,
         }
