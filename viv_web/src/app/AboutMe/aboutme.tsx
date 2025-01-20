@@ -12,7 +12,7 @@ const AboutMe = () => {
             <div className="flex justify-center md:justify-start">
               <div className="relative">
                 <Image
-                  src="/images/viv.png"
+                  src="/images/viv_image.jgp"
                   alt="Vivian Nafula"
                   width={250}
                   height={250}
