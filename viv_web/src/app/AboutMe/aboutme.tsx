@@ -12,10 +12,10 @@ const AboutMe = () => {
             <div className="flex justify-center md:justify-start">
               <div className="relative">
                 <Image
-                  src="/images/viv_image.jgp"
+                  src="/images/viv_image.jpg"
                   alt="Vivian Nafula"
-                  width={250}
-                  height={250}
+                  width={350}
+                  height={350}
                   className="rounded-lg shadow-xl object-cover w-full h-full"
                 />
                 <div className="absolute -z-10 top-4 left-4 w-full h-full bg-blue-600/20 rounded-lg"></div>
