@@ -33,7 +33,7 @@ const AboutMe = () => {
               while maintaining strict HIPAA compliance standards.
               </p>
               <div className="flex flex-wrap gap-4 mt-8">
-                <a  href="/images/Vivian_CV.pdf"
+                <a  href="/images/Vivian Nafula - CV.pdf"
                 download >
                 <button className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full transition-colors">
                   <FileDown className="w-5 h-5" />
